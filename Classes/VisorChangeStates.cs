@@ -18,5 +18,6 @@ namespace AutoVisor.Classes
         Casting   = 1 << 10,
         Duty      = 1 << 11,
         Drawn     = 1 << 12,
+        Cutscene  = 1 << 13,
     }
 }

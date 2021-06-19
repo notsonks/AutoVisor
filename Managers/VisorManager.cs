@@ -43,6 +43,7 @@ namespace AutoVisor.Managers
             { VisorChangeStates.Combat, true },
             { VisorChangeStates.Casting, false },
             { VisorChangeStates.Duty, true },
+            { VisorChangeStates.Cutscene, true },
             { VisorChangeStates.Drawn, false },
         };
 
@@ -259,6 +260,7 @@ namespace AutoVisor.Managers
             (ConditionFlag.Casting, VisorChangeStates.Casting),
             (ConditionFlag.InCombat, VisorChangeStates.Combat),
             (ConditionFlag.None, VisorChangeStates.Drawn),
+            (ConditionFlag.WatchingCutscene, VisorChangeStates.Cutscene),
             (ConditionFlag.BoundByDuty, VisorChangeStates.Duty),
             (ConditionFlag.NormalConditions, VisorChangeStates.Normal),
         };

@@ -420,7 +420,8 @@ namespace AutoVisor.GUI
               + "\t6. In Combat\n"
               + "\t7. Weapon Drawn\n"
               + "\t8. In Duty\n"
-              + "\t9. Normal.");
+              + "\t9. Watching Cutscene\n"
+              + "\t10. Normal.");
         }
 
         private void DrawPlayerAdd()
